@@ -1,0 +1,27 @@
+{
+  "name": "node-entry-books-sql",
+  "version": "1.0.0",
+  "description": "nodejs+mysql入门学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qyhever/node-entry-books-sql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qyhever/node-entry-books-sql/issues"
+  },
+  "homepage": "https://github.com/qyhever/node-entry-books-sql#readme",
+  "dependencies": {
+    "art-template": "^4.12.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-art-template": "^1.0.0",
+    "mysql": "mysqljs/mysql"
+  }
+}
