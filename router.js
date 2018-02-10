@@ -15,4 +15,6 @@ router.post('/addBook', service.addBook);
 router.get('/toEditBook', service.toEditBook);
 // 编辑图书（提交表单）
 router.post('/editBook', service.editBook);
+// 删除图书
+router.get('/deleteBook', service.deleteBook);
 module.exports = router;
